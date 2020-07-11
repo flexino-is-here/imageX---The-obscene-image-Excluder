@@ -165,7 +165,7 @@ class _MyAppState extends State<MyApp> {
       _outputs = x;
     });
 
-    if (x == "1 Safe") {
+    if (x == "0 Safe") {
       image = await FlutterExifRotation.rotateAndSaveImage(path: image.path);
     } else {
       final SharedPreferences prefs = await SharedPreferences.getInstance();
