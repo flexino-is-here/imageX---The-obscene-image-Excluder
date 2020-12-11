@@ -1,4 +1,4 @@
-#imageX
+#imageX App
 
 Not just an ordinary camera. 
 This app is designed using Flutter and Tensorflow that detects any inappropriate obscene images clicked and notifies the user's guardian if done.
